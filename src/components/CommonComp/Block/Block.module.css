@@ -1,0 +1,24 @@
+.currencyInput {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	max-width:50%;
+}
+
+.label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.inputField {
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+	transition: border-color 0.2s;
+}
+
+.inputField:focus {
+	border-color: #007BFF;
+}
